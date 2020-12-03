@@ -2,10 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vaildation form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="https://kit.fontawesome.com/90df2abb40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="validationForm04.css">
+    <title>vaildation form hello</title>
 </head>
+
 <body>
+
     
+    <form>
+    <div class="field-name">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Username" required>
+        <i class="fas fa-arrow-down"></i>
+    </div>
+
+    <div class="field-email inactive">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Email" required>
+        <i class="fas fa-arrow-down"></i>
+    </div>
+
+    <div class="field-password inactive">
+        <i class="fas fa-key"></i>
+        <input type="password" placeholder="Password" required>
+        <i class="fas fa-arrow-down"></i>
+    </div>
+
+    <div class="field-finish inactive">
+        <i class="fas fa-heart"></i>
+        <p>Thank You!</p>
+        <i class="fas fa-heart"></i>
+    </div>
+</form>
+
+<script src="validationForm04.js"></script>
 </body>
 </html>
